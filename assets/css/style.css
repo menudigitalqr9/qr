@@ -399,7 +399,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero Section original
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -422,6 +422,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
+  margin-top: 120px;
   font-size: 35px;
   font-weight: 400;
   color: #fff;
@@ -475,6 +476,78 @@ h6 {
     height: 120vh;
   }
 }
+
+
+
+
+
+
+/*---------------------------------------
+  HERO & HERO SLIDE         nueva emi
+-----------------------------------------*/
+/* .hero-section-full-height {
+  height: 680px;
+  min-height: 680px;
+  position: relative;
+}
+
+.carousel:hover .carousel-control-next-icon, 
+.carousel:hover .carousel-control-prev-icon {
+  opacity: 1;
+}
+
+#hero-slide .carousel-item {
+  height: 680px;
+  min-height: 680px;
+}
+
+
+
+.carousel-image {
+  display: block;
+  width: 100%;
+  min-height: 680px;
+}
+
+#hero-slide .carousel-indicators-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#hero-slide .carousel-indicators {
+  margin-right: 0;
+  margin-left: 22px;
+  justify-content: inherit;
+}
+
+.carousel-control-next, 
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius-large);
+  background-size: 60% 60%;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.carousel-control-next-icon:hover, 
+.carousel-control-prev-icon:hover {
+  background-color: var(--primary-color);
+} */
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Sections General
