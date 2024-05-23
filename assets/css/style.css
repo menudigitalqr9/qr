@@ -680,6 +680,57 @@ section {
   filter: none;
 }
 
+
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.servicesE .card {
+  border: 1px solid rgba(14, 29, 52, 0.15);
+  background: #fff;
+  position: relative;
+  border-radius: 0;
+  height: 100%;
+}
+
+.servicesE .card .card-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.servicesE .card .card-img img {
+  transition: 0.3s ease-in-out;
+}
+
+.servicesE .card h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.servicesE .card a {
+  color: #f15a24;
+  transition: 0.3;
+}
+
+.servicesE .card a:hover {
+  color: var(--color-primary);
+}
+
+.servicesE .card p {
+  padding: 0 30px;
+  margin-bottom: 30px;
+  color: var(--color-secondary);
+  font-size: 15px;
+}
+
+.servicesE .card:hover .card-img img {
+  transform: scale(1.1);
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1293,8 +1344,30 @@ section {
   border-color: #fff;
 }
 
-.pricing .featured {
+.pricing .featured1 {
+  /* background: #2b2b2b; */
+  background: #f06838; 
+  
+}
+
+.pricing .featured2 {
   background: #f15a24;
+}
+
+.pricing .featured3 {
+  background: #f1490d;
+}
+
+.pricing .featured4 {
+  background: #097cd0;
+}
+
+.pricing .featured5 {
+  background: #0669b2;
+}
+
+.pricing .featured6 {
+  background: #055088;
 }
 
 /*--------------------------------------------------------------
