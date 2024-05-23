@@ -1293,8 +1293,30 @@ section {
   border-color: #fff;
 }
 
-.pricing .featured {
+.pricing .featured1 {
+  /* background: #2b2b2b; */
+  background: #f06838; 
+  
+}
+
+.pricing .featured2 {
   background: #f15a24;
+}
+
+.pricing .featured3 {
+  background: #f1490d;
+}
+
+.pricing .featured4 {
+  background: #097cd0;
+}
+
+.pricing .featured5 {
+  background: #0669b2;
+}
+
+.pricing .featured6 {
+  background: #055088;
 }
 
 /*--------------------------------------------------------------
